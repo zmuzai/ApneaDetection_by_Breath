@@ -29,7 +29,7 @@ The algorithm is as follows：
     i.	E2包络线就是取E1最大值点平滑连接  
   e)	自适应阈值之下的E2包络线的所有信号片段被识别为呼吸幅度下降  
   f)	最终，这些点和他们直接相邻的片段被提取为可能的呼吸暂停片段。   
-  ![Image text](picture/fig1.jpg)
+  ![Image text](https://raw.githubusercontent.com/zmuzai/ApneaDetection_by_Breath/main/picture/fig1.jpg)
 3.	分类  
   a)	上一节处理后的音频信号被分为短期窗口，现在通过计算强度来提取包络E3  ，其中E为包络强度，N为窗口中的样本数量，Xi是窗口中的第i个样本。  
   b)	对包络曲线E3施加一个截止频率为2Hz的低通滤波器，计算一个可变阈值，E3中所有超过这个阈值的环节都被归类为声音事件  
