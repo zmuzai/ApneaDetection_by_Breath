@@ -14,6 +14,7 @@ If you want use this code, please cite the paper:
 
 
 The algorithm is as follows：
+![Image text](picture/fig3.png)
 1.	数据预处理  
   a)	去除任何心音和噪音，并产生一个主要包含呼吸音的信号  
   b)	使用200-2000Hz之间的FIR带通滤波器  
