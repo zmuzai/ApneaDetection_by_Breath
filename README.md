@@ -1,4 +1,4 @@
-# ApneaDetection_by_Breath
+# ApneaDetection_by_Breath in python
 
 This code is based on the algorithm described in the following papers with some improvements.   
 If you want use this code, please cite the paper:  
